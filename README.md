@@ -3,11 +3,11 @@
 
 # Detektor Emocji w Czasie Rzeczywistym na Podstawie Punktów Charakterystycznych Twarzy
 
-🎯 **Cel projektu**: stworzenie lekkiego, szybkiego i prywatnego systemu rozpoznawania emocji w czasie rzeczywistym przy użyciu tylko 13 najważniejszych punktów twarzy (landmarków), bez potrzeby przetwarzania całego obrazu twarzy.
+**Cel projektu**: stworzenie lekkiego, szybkiego i prywatnego systemu rozpoznawania emocji w czasie rzeczywistym przy użyciu tylko 13 najważniejszych punktów twarzy (landmarków), bez potrzeby przetwarzania całego obrazu twarzy.
 
 ---
 
-## 📸 Główna idea
+## Główna idea
 
 - Wykorzystuje **MediaPipe FaceMesh** do wyodrębnienia 13 kluczowych punktów twarzy.
 - Emocje są rozpoznawane na podstawie współrzędnych `(x, y, z)` tych punktów.
@@ -17,7 +17,7 @@
 
 ---
 
-## 😊 Obsługiwane emocje
+## Obsługiwane emocje
 
 - 😄 Szczęśliwy (Happy)  
 - 😢 Smutny (Sad)  
@@ -26,7 +26,7 @@
 
 ---
 
-## 🧠 Struktura projektu
+## Struktura projektu
 
 | Plik / Folder                         | Opis |
 |--------------------------------------|------|
@@ -38,7 +38,7 @@
 
 ---
 
-## 🚀 Jak uruchomić
+## Jak uruchomić
 
 ### 1. Zainstaluj wymagane biblioteki
 
@@ -95,7 +95,7 @@ python live_landmark_emotion_detector.py
 
 ---
 
-## 👨‍💻 Autorzy
+## Autor
 
 - Artem Koshovyi  
 
@@ -107,11 +107,11 @@ python live_landmark_emotion_detector.py
 
 # Real-Time Emotion Detector with Face Landmarks
 
-🎯 **Project goal**: Build a lightweight, fast, and privacy-focused real-time emotion recognition system using only 13 facial landmarks instead of the whole face image.
+**Project goal**: Build a lightweight, fast, and privacy-focused real-time emotion recognition system using only 13 facial landmarks instead of the whole face image.
 
 ---
 
-## 📸 Main idea
+## Main idea
 
 - Uses **MediaPipe FaceMesh** to extract 13 key facial points.
 - Emotions are recognized based on `(x, y, z)` coordinates of those points.
@@ -121,7 +121,7 @@ python live_landmark_emotion_detector.py
 
 ---
 
-## 😊 Supported emotions
+## Supported emotions
 
 - 😄 Happy  
 - 😢 Sad  
@@ -130,7 +130,7 @@ python live_landmark_emotion_detector.py
 
 ---
 
-## 🧠 Project structure
+## Project structure
 
 | File / Folder                         | Description |
 |--------------------------------------|-------------|
@@ -142,7 +142,7 @@ python live_landmark_emotion_detector.py
 
 ---
 
-## 🚀 How to run
+## How to run
 
 ### 1. Install dependencies
 
@@ -199,7 +199,7 @@ python live_landmark_emotion_detector.py
 
 ---
 
-## 👨‍💻 Authors
+## Author
 
 - Artem Koshovyi   
 
